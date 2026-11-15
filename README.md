@@ -46,30 +46,10 @@ Key findings:
 - The silhouette score is about 0.21 for k = 3 to 8, so segments are soft groupings and not tight clusters. C1 is the weakest label.
 - The choice of k = 4 and the feature weights rely on judgement.
 
-## Repository contents
 
-```
-data/
-  dim_clients_segmented.csv     cleaned clients with segment labels
-  fact_property_sales.csv       listings joined to buyer segment
-  dim_segments.csv              segment lookup (C1 to C4)
-  segment_profile.csv           segment averages
-  model_k_evaluation.csv        elbow and silhouette values
-dashboard/
-  buyer_segmentation_dashboard.html   interactive dashboard
-  PowerBI_Build_Guide.md              Power BI model, DAX measures and page layouts
-paper/
-  Buyer_Segmentation_Paper_Compressed.docx
-```
 
 ## Dashboard
 
-Four modules: Buyer Segmentation Overview, Investor Behaviour, Geographic Buyer Analysis and Segment Insights. Filters: country, region, acquisition purpose and client type. To rebuild it in Power BI, follow `PowerBI_Build_Guide.md`.
+Four modules: Buyer Segmentation Overview, Investor Behaviour, Geographic Buyer Analysis and Segment Insights. Filters: country, region, acquisition purpose and client type. Build a poower bi dashboard
 
-## Tech stack
 
-Python (pandas, scikit-learn), Power BI, DAX, HTML and Chart.js.
-
-## Author
-
-Add your name and contact details here.
