@@ -4,9 +4,13 @@ Buyer segmentation for a real estate platform using K-Means and Ward hierarchica
 
 Prepared for **Unified Mentor** and **Parcl Co. Limited**.
 
-## Problem
+## Problem Statement
+Parcl currently lacks a data-driven understanding of:
 
-Real estate companies often treat all buyers the same. This leads to inefficient marketing, generic property recommendations and poor investor targeting. This project uses clustering to find hidden buyer segments and describe their investment behaviour, financing patterns and geography.
+• Different types of property buyers
+• Investment motivations across demographics
+• Geographic differences in investment behavior
+• Customer financing patterns
 
 ## Data
 
