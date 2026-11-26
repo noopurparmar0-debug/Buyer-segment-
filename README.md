@@ -28,6 +28,52 @@ Parcl currently lacks a data-driven understanding of:
 5. **Models:** K-Means (k = 4, initialised from the brief's buyer archetypes) and Ward hierarchical clustering as a cross-check.
 6. **Choosing k:** elbow method and silhouette score for k = 2 to 8.
 7. **Interpretation:** each cluster profiled by age, purpose, loans, spend, units and geography.
+            Data Science Methodology (Step-by-Step)
+Step 1 – Data Cleaning
+Tasks performed:
+
+• Handle missing client attributes
+• Normalize categorical labels & Remove duplicate client entries
+Step 2 – Feature Encoding
+Convert categorical fields using:
+
+• One-Hot Encoding
+• Label Encoding
+• Variables encoded include:
+•client_type
+•region
+•acquisition_purpose
+•referral_channel
+•country
+
+Step 3 – Feature Scaling
+Use StandardScaler or MinMaxScaler to normalize numeric variables such as:
+
+• Age
+• Satisfaction score
+Step 4 – Clustering Model Selection
+Two clustering approaches are used.
+
+• K-Means Clustering Advantages:
+● Efficient
+● Easy to interpret
+• Hierarchical Clustering Advantages:
+● Reveals nested cluster relationships
+● Helps validate K-means results
+Step 5 – Optimal Cluster Selection
+Use evaluation methods:
+
+• Elbow Method
+Identifies the optimal number of clusters.
+• Silhouette Score
+Measures clustering quality.
+Step 6 – Cluster Interpretation
+Each cluster is analyzed based on:
+
+• investment purpose
+• geographic distribution
+• loan behavior
+• customer demographics 
 
 ## Results
 
